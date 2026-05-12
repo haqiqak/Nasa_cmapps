@@ -1,0 +1,63 @@
+# ─── Python ───────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+.env
+.venv
+venv/
+ENV/
+
+# ─── Jupyter ──────────────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ─── Dataset files (download separately from NASA / Kaggle) ───────────────────
+data/
+*.txt
+# Keep RUL reference files if you want to track them:
+# !RUL_FD004.txt
+
+# ─── Generated / processed files ──────────────────────────────────────────────
+processed/
+*.npy
+*.csv
+# Keep tracked CSVs if desired:
+# !processed/train_regression.csv
+
+# ─── Trained model weights (often too large for git) ─────────────────────────
+models/
+*.pkl
+*.h5
+*.keras
+*.pb
+saved_model/
+
+# ─── Streamlit assets bundle ──────────────────────────────────────────────────
+streamlit_assets/
+
+# ─── Generated plots ──────────────────────────────────────────────────────────
+*.png
+*.jpg
+*.jpeg
+*.pdf
+# Allow tracked figures in docs/:
+# !docs/figures/
+
+# ─── Colab exports ────────────────────────────────────────────────────────────
+all_files.zip
+*.zip
+
+# ─── OS & editor ──────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
