@@ -22,9 +22,9 @@
 
 | Name | Role |
 |------|------|
-| **Ali Ahsan** | Model Development & Evaluation |
-| **Anas bin Waheed** | Data Preprocessing & Feature Engineering |
-| **Haqiq Azeem** | Deep Learning Architecture & Statistical Analysis |
+| **Ali Ahsan** | Data Preprocessing & Feature Engineering |
+| **Anas bin Waheed** | Model Development & Evaluation |
+| **Haqiq Azeem** | Deep Learning Architecture & Streamlit App |
 
 *BSDS-02 Cohort*
 
